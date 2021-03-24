@@ -24,7 +24,7 @@ declare namespace ClientOAuth2 {
     accessTokenUri?: string
     authorizationUri?: string
     redirectUri?: string
-    scopes?: string[]
+    scopes?: string | string[]
     state?: string
     body?: {
       [key: string]: string | string[];
